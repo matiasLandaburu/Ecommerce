@@ -1,0 +1,4 @@
+<div class="cart-item">
+    <button (click)="passCartItemToCart()" type="button" class="btn btn-outline-danger btn-sm ">-</button><span>{{cartItem.productName}} </span> x <span> {{cartItem.qty}} </span>: <strong>{{(cartItem.qty * cartItem.price )| currency: 'INR'}}</strong>
+</div>
+
